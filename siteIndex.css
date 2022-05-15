@@ -1,0 +1,16 @@
+button{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 35px 35px 35px 35px;
+    background: rgb(116,193,174);
+    background: radial-gradient(circle, rgba(116,193,174,1) 7%, rgba(152,254,221,1) 79%);
+    box-shadow: 5px 5px 8px rgba(116, 193, 174, 0.719), 10px 10px 8px rgba(152, 254, 222, 0.068);
+    opacity: 80%;
+}
+
+div.container{
+    display: inline-flex;
+    margin-left: 50%;
+    margin-top: 3%;
+    gap: 1em;
+}

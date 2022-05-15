@@ -1,0 +1,53 @@
+button{
+    width: 14rem;
+    height: 5rem;
+    border-radius: 35px 35px 35px 35px;
+    background: rgb(116,193,174);
+    background: radial-gradient(circle, rgba(116,193,174,1) 7%, rgba(152,254,221,1) 79%);
+    box-shadow: 5px 5px 8px rgba(116, 193, 174, 0.719), 10px 10px 8px rgba(152, 254, 222, 0.068);
+}
+
+div.ButtonContainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 50%;
+    gap: 1.5em;
+}
+
+div.orderedContainer{
+    display: inline-flex;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:155px;
+    width: 100%;
+}
+
+div.verticalLine{
+    border-right: 4px solid #000;
+    height: 150px;
+    margin: 5%;
+}
+
+hx{
+    font-size: 30px;
+}
+
+ol, ul{
+    font-size: 25px;
+}
+
+div.unorderedContainer{
+    display: inline-flex;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:155px;
+    width: 100%;
+}
